@@ -1,0 +1,7 @@
+﻿Testfallnummer;blinkend (nein/langsam/schnell);erste I2C;warten nach 1. I2C (ms);zweite I2C (Falls blinkend);warten nach 2. I2C (ms);Durchführungsdauer (s);PWM prüfen nach (ms);Erwartete PWM 1 (array);Erwartete PWM 2 (array);Erwartete PWM 3 (array);Erwartete PWM 4 (array);Erwartete PWM 5 (array);Erwartete PWM 6 (array);Erwartete PWM 7 (array);Erwartete PWM 8 (array);Erwartete PWM 9 (array)
+1;langsam;0x20;1000;0x00;1000;30;4000;(25, 210);(0, 0);(0, 0);(0, 0);(25, 210);(0, 0);(25, 210);(0, 0);(0, 0)
+2;nein;0x20;500;0x00;500;30;4000;(25, 210);(0, 0);(0, 0);(0, 0);(25, 210);(0, 0);(25, 210);(0, 0);(0, 0)
+3;nein;0x40;10;0;0;30;4000;(210, 210);(0, 0);(0, 0);(0, 0);(210, 210);(0, 0);(25, 25);(0, 0);(0, 0)
+4;nein;0x80;10;0;0;30;4000;(25, 25);(0, 0);(0, 0);(0, 0);(25, 25);(0, 0);(210, 210);(0, 0);(0, 0)
+5;langsam;0x80;1000;0x00;1000;30;4000;(25, 210);(0, 0);(0, 0);(0, 0);(25, 210);(0, 0);(25, 210);(0, 0);(0, 0)
+6;nein;0xE0;10;0;0;30;4000;(25, 25);(0, 0);(0, 0);(0, 0);(25, 210);(0, 0);(25, 210);(0, 0);(0, 0)
